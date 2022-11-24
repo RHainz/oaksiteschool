@@ -1,4 +1,5 @@
 import base from "../srcimags/basin.png"
+import logo from "../srcimags/logo.jpeg"
 
 
 export function Main () {
@@ -7,6 +8,8 @@ export function Main () {
 
             <main>
                 <div class="flex">
+                    
+                    <img class="w-1/5" src={logo} alt="logo" />
                     <h1>
                         Bem Vindo À OakSchool
                     </h1>
