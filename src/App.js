@@ -1,4 +1,4 @@
-import {Main} from "./components/Main"
+import { Main } from "./components/Main"
 import { Videos } from "./components/Videos.js"
 
 function App() {
