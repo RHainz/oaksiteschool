@@ -1,6 +1,6 @@
 
 export function Videos() {
-  
+
   return (
     <section>
       <h1>Veja dicas incríveis em nosso canal no Youtube</h1>
@@ -41,5 +41,5 @@ export function Videos() {
         Acesse para mais dicas!
       </a>
     </section>
-  );
+    );
 }
