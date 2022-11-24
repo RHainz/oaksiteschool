@@ -1,5 +1,3 @@
-
-
 export function Videos() {
   
   var tag = document.createElement("script");
