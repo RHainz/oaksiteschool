@@ -1,6 +1,6 @@
-import { Main } from "./components/Main"
+import { Main } from "./components/Main.js"
 import { Videos } from "./components/Videos.js"
-import {Sobre} from "./components/Sobre.js"
+import { Sobre } from "./components/Sobre.js"
 
 function App() {
   return (

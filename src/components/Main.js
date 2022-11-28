@@ -1,5 +1,5 @@
 import base from "../srcimags/basin.png"
-import logo from "../srcimags/logo.jpeg"
+import logo from "../srcimags/oak-Logo-png-quadrado.png"
 
 
 export function Main () {
