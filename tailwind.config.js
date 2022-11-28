@@ -1,10 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Arizoina: ["Arizonia", "cursive"],
+        Hind: ["Hind", "sans-serif"],
+        EuphoriaScript: ["Euphoria Script", "cursive"],
+        Splash: ["Splash", "cursive"],
+      },
+    },
   },
-  plugins: [],
-}
+  plugins: [require("@tailwindcss/aspect-ratio")],
+};
