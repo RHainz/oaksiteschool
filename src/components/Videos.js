@@ -2,13 +2,16 @@
 export function Videos() {
 
   return (
-    <section className="bg-orange-500 flex flex-wrap justify-center items-center flex-col px-9 py-20 gap-20">
-      <h2 className="font-Splash text-7xl text-white text-center">
-        Amazing Tips
+    <section className="bg-orange-500 flex flex-wrap justify-center items-center flex-col px-5 py-20 gap-10">
+      <h2 className="font-Hind text-7xl text-white text-center">
+        <strong>Amazing Tips</strong>
       </h2>
+      <p className="font-Hind text-white text-center">
+        Dicas Incríveis em nosso canal no YouTube
+      </p>
       <div className="flex flex-wrap justify-center items-center gap-4">
         <iframe
-          className="rounded-lg aspect-video"
+          className="rounded-lg w-72 lg:w-96 lg:h-56"
           src="https://www.youtube.com/embed/C5jmir-xfdM"
           title="YouTube video player"
           frameborder="0"
@@ -16,7 +19,7 @@ export function Videos() {
           allowfullscreen
         ></iframe>
         <iframe
-          className="rounded-lg max-w-lg aspect-video"
+          className="rounded-lg w-72 lg:w-96 lg:h-56"
           src="https://www.youtube.com/embed/YuXeQr1J9eo"
           title="YouTube video player"
           frameborder="0"
@@ -24,7 +27,7 @@ export function Videos() {
           allowfullscreen
         ></iframe>
         <iframe
-          className="rounded-lg max-w-lg aspect-video"
+          className="rounded-lg w-72 lg:w-96 lg:h-56"
           src="https://www.youtube.com/embed/F8yHYXBLPr8"
           title="YouTube video player"
           frameborder="0"
@@ -36,9 +39,9 @@ export function Videos() {
         href="https://www.youtube.com/@oakschool3677"
         target="_blank"
         rel="noopener noreferrer"
-        className="font-Hind text-2xl bg-emerald-900 hover:bg-emerald-700 active:bg-emerald-500  text-white h-10 w-70 flex justify-center items-center rounded-full text-center p-7"
+        className="font-Hind text-2xl bg-emerald-900 hover:bg-emerald-700 active:bg-emerald-500  text-white w-56 sm:w-80 flex justify-center items-center rounded-lg text-center p-4"
       >
-        Acesse nosso canal
+        Acesse para mais
       </a>
     </section>
   );
