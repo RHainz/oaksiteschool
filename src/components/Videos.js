@@ -3,15 +3,15 @@ export function Videos() {
 
   return (
     <section className="bg-orange-500 flex flex-wrap justify-center items-center flex-col px-5 py-20 gap-10">
-      <h2 className="font-Hind text-7xl text-white text-center">
-        <strong>Amazing Tips</strong>
+      <h2 className="font-bold text-6xl text-white text-center">
+        Amazing Tips
       </h2>
-      <p className="font-Hind text-white text-center">
+      <p className="text-white text-center">
         Dicas Incríveis em nosso canal no YouTube
       </p>
       <div className="flex flex-wrap justify-center items-center gap-4">
         <iframe
-          className="rounded-lg w-72 lg:w-96 lg:h-56"
+          className="rounded-lg w-full aspect-[16/9] sm:w-[400px] sm:h-[225px]"
           src="https://www.youtube.com/embed/C5jmir-xfdM"
           title="YouTube video player"
           frameborder="0"
@@ -19,7 +19,7 @@ export function Videos() {
           allowfullscreen
         ></iframe>
         <iframe
-          className="rounded-lg w-72 lg:w-96 lg:h-56"
+          className="rounded-lg w-full aspect-[16/9] sm:w-[400px] sm:h-[225px]"
           src="https://www.youtube.com/embed/YuXeQr1J9eo"
           title="YouTube video player"
           frameborder="0"
@@ -27,7 +27,7 @@ export function Videos() {
           allowfullscreen
         ></iframe>
         <iframe
-          className="rounded-lg w-72 lg:w-96 lg:h-56"
+          className="rounded-lg w-full aspect-[16/9] sm:w-[400px] sm:h-[225px]"
           src="https://www.youtube.com/embed/F8yHYXBLPr8"
           title="YouTube video player"
           frameborder="0"
@@ -39,7 +39,7 @@ export function Videos() {
         href="https://www.youtube.com/@oakschool3677"
         target="_blank"
         rel="noopener noreferrer"
-        className="font-Hind text-2xl bg-emerald-900 hover:bg-emerald-700 active:bg-emerald-500  text-white w-56 sm:w-80 flex justify-center items-center rounded-lg text-center p-4"
+        className="font-semibold text-2xl bg-emerald-900 hover:bg-emerald-700 active:bg-emerald-500  text-white w-56 sm:w-80 flex justify-center items-center rounded-lg text-center p-4"
       >
         Acesse para mais
       </a>
