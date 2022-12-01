@@ -5,11 +5,8 @@ export function Sobre() {
 
     return (
       <>
+        <img id="sobre" className="w-full" src={knowoak} alt="Know Oak" />
         <section className="leading-8 flex flex-wrap justify-center items-center flex-col px-5 py-20 gap-10">
-          <h2 className="font-bold text-6xl text-emerald-900 text-center">
-            Conheça a Oak School
-          </h2>
-          <img src={knowoak} alt="Know Oak" />
           <p>
             A educação do século XXI traz consigo uma mistura de novos desafios
             e ferramentas promissoras. A{" "}
@@ -35,7 +32,7 @@ export function Sobre() {
               href="#"
               className="inline-block rounded-lg bg-orange-500 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-orange-500 hover:bg-orange-400 hover:ring-orange-400"
             >
-              Quero aprender inglês
+              Agende uma aula gratuita
             </a>
           </div>
         </section>

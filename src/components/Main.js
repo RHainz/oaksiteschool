@@ -1,13 +1,12 @@
 import bgImg from "../srcimags/man-2562325_1280.jpg"
-import logo from "../srcimags/oak-Logo-png-quadrado.png"
 import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 
 const navigation = [
-  { name: "Product", href: "#" },
-  { name: "Features", href: "#" },
+  { name: "Sobre", href: "#sobre" },
+  { name: "Dicas", href: "#videos" },
   { name: "Marketplace", href: "#" },
   { name: "Company", href: "#" },
 ];
@@ -18,32 +17,11 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
     return (
       <>
-        {/* <main className="isolate bg-orange-500">
-          <div
-            className="h-screen bg-no-repeat bg-cover bg-center opacity-75 flex flex-wrap justify-center items-center flex-col px-9 py-20 gap-10"
-            style={{ backgroundImage: `url(${bgImg})` }}
-          >
-            <p className="font-Hind text-emerald-900 text-xl">Welcome to</p>
-            <h1 className="font-Hind text-emerald-900 text-6xl text-center sm:text-8xl md:text-9xl">
-              <strong>Oak School</strong>
-            </h1>
-            <div>Video Aqui!</div>
-            <button class="text-slate-500" type="button">
-              Quero Aprender Inglês !!!
-            </button>
-          </div>
-        </main> */}
         <div className="isolate h-screen bg-white">
           <div
-            className="absolute h-screen bg-no-repeat bg-cover bg-center opacity-10 inset-x-0 -z-10"
+            className="absolute h-screen bg-no-repeat bg-cover bg-center bg-fixed opacity-10 inset-x-0 -z-10"
             style={{ backgroundImage: `url(${bgImg})` }}
-          >
-            <svg
-              className="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]"
-              viewBox="0 0 1155 678"
-              fill="none"
-            ></svg>
-          </div>
+          ></div>
           <div className="px-6 pt-6 lg:px-8">
             <div>
               <nav
@@ -51,11 +29,9 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
                 aria-label="Global"
               >
                 <div className="flex lg:min-w-0 lg:flex-1" aria-label="Global">
-                  <a href="#" className="-m-1.5 p-1.5">
-                    <span className="font-bold text-emerald-900 text-3xl">
-                      Oak
-                    </span>
-                  </a>
+                  <span className="font-bold text-emerald-900 text-3xl">
+                    Oak
+                  </span>
                 </div>
                 <div className="flex lg:hidden">
                   <button
@@ -114,6 +90,7 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
                             key={item.name}
                             href={item.href}
                             className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-emerald-900 hover:bg-gray-400/10"
+                            onClick={() => setMobileMenuOpen(false)}
                           >
                             {item.name}
                           </a>
@@ -136,7 +113,7 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
                     </h1>
                     <div className="mt-8 flex gap-x-4 sm:justify-center">
                       <iframe
-                        className="rounded-lg w-full aspect-[16/9] sm:w-[500px] sm:h-[281.25px]"
+                        className="rounded-lg w-full aspect-[16/9] sm:w-[500px] sm:h-[281.25px] lg:w-[600px] lg:h-[337.5px]"
                         src="https://www.youtube.com/embed/F8yHYXBLPr8"
                         title="YouTube video player"
                         frameborder="0"
