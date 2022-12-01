@@ -2,7 +2,7 @@
 export function Videos() {
 
   return (
-    <section className="bg-orange-500 flex flex-wrap justify-center items-center flex-col px-5 py-20 gap-10">
+    <section id="videos" className="bg-orange-500 flex flex-wrap justify-center items-center flex-col px-5 py-20 gap-10">
       <h2 className="font-bold text-6xl text-white text-center">
         Amazing Tips
       </h2>
