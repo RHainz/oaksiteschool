@@ -103,8 +103,8 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
             </div>
           </div>
           <main>
-            <div className="relative px-6 lg:px-8">
-              <div className="mx-auto max-w-3xl pt-20 pb-10 sm:pt-20 sm:pb-20">
+            <div className="h-screen relative px-6 lg:px-8">
+              <div className="h-screen mx-auto max-w-3xl pt-20 pb-10 sm:pt-20 sm:pb-20">
                 <div>
                   <div>
                     <h1 className="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl">
