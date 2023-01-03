@@ -9,6 +9,9 @@ module.exports = {
         EuphoriaScript: ["Euphoria Script", "cursive"],
         Splash: ["Splash", "cursive"],
       },
+      colors: {
+        "whatsapp-green": "#25D366",
+      },
     },
   },
   plugins: [require("@tailwindcss/aspect-ratio")],
