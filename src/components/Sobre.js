@@ -39,7 +39,7 @@ export function Sobre() {
             </div>
             <div className="py-5 lg:py-5 mb-5 lg:mb-0 xl:mt-10 flex justify-center">
               <a
-                href="#"
+                href="https://wa.me/5515996996998"
                 className="inline-block rounded-lg bg-orange-500 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-orange-500 hover:bg-orange-400 hover:ring-orange-400 xl:text-lg"
               >
                 Agende uma aula gratuita

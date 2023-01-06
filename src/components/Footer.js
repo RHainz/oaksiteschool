@@ -1,7 +1,7 @@
 
 export function Footer() {
   return (
-    <footer>
+    <footer className="h-24 bg-white">
       
     </footer>
   );
