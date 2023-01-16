@@ -14,33 +14,26 @@ export function Sobre() {
           />
           <div className="lg:w-6/12 xl:w-3/5">
             <div className="xl:text-xl leading-8 px-5 sm:px-10 xl:px-16 py-10 lg:py-0">
+              <h2 className="text-xl py-2">
+                Hello, somos a <strong className="text-emerald-900">Oak</strong>
+                ,
+              </h2>
               <p className="py-2">
-                A educação do século XXI traz consigo uma mistura de novos
-                desafios e ferramentas promissoras. A{" "}
-                <strong className="text-emerald-900">Oak</strong> oferece um
-                programa flexível, com treinamento de inglês embasado em
-                resultados cientificamente comprovados.
+                Nossas aulas são por videochamada e duram 55 minutos, onde seu
+                professor vai focar os exercícios para trabalhar exatamente
+                aquele ponto que tem te atrapalhado.
               </p>
               <p className="py-2">
-                No centro da nossa missão, está o nosso compromisso em fornecer
-                um ambiente de aprendizagem personalizado, respeitoso e
-                recompensador.
-              </p>
-              <p className="py-2">
-                Essa abordagem única, junto com nosso corpo docente de alta
-                qualidade, torna a{" "}
-                <strong className="text-emerald-900">Oak</strong> uma das
-                melhores escolas.
-              </p>
-              <p className="py-2">
-                Explore o nosso programa de cursos e entre em contato com a
-                nossa equipe para marcar uma aula experimental gratuita.
+                E para você saber se é tudo isso mesmo é só agendar uma aula
+                teste grátis e ver por conta própria. See you soon!!!
               </p>
             </div>
             <div className="py-5 lg:py-5 mb-5 lg:mb-0 xl:mt-10 flex justify-center">
               <a
                 href="https://wa.me/5515996996998"
                 className="inline-block rounded-lg bg-orange-500 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-orange-500 hover:bg-orange-400 hover:ring-orange-400 xl:text-lg"
+                target="_blank"
+                rel="noreferrer"
               >
                 Agende uma aula gratuita
               </a>
