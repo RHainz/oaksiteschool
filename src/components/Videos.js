@@ -2,7 +2,7 @@
 export function Videos() {
 
   return (
-    <section id="videos" className="bg-orange-500 flex flex-wrap justify-center items-center flex-col px-5 py-20 gap-10">
+    <section id="videos" className="bg-emerald-900 flex flex-wrap justify-center items-center flex-col px-5 py-20 gap-10">
       <h2 className="font-bold text-6xl text-white text-center">
         Amazing Tips
       </h2>
@@ -39,7 +39,7 @@ export function Videos() {
         href="https://www.youtube.com/@oakschool3677"
         target="_blank"
         rel="noopener noreferrer"
-        className="font-semibold text-2xl bg-emerald-900 hover:bg-emerald-700 active:bg-emerald-500  text-white w-56 sm:w-80 flex justify-center items-center rounded-lg text-center p-4"
+        className="font-semibold text-2xl bg-orange-500 hover:bg-orange-400 active:bg-orange-600  text-white w-56 sm:w-80 flex justify-center items-center rounded-lg text-center p-4"
       >
         Acesse para mais
       </a>

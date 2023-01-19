@@ -19,7 +19,7 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
       <>
         <div className="isolate h-screen bg-white">
           <div
-            className="absolute h-screen bg-no-repeat bg-cover bg-center bg-fixed opacity-10 inset-x-0 -z-10"
+            className="absolute h-screen bg-no-repeat bg-cover bg-center bg-fixed opacity-40 inset-x-0 -z-10"
             style={{ backgroundImage: `url(${bgImg})` }}
           ></div>
           <div className="px-6 pt-6 lg:px-8">
@@ -123,8 +123,8 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
                     </div>
                     <div className="mt-8 flex gap-x-4 sm:justify-center">
                       <a
-                        href="https://wa.me/551591582979"
-                        className="inline-block rounded-lg bg-orange-500 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-orange-500 hover:bg-orange-400 hover:ring-orange-400"
+                        href="https://wa.me/5515996996998"
+                        className="inline-block rounded-lg px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm bg-orange-500 hover:bg-orange-400 active:bg-orange-600"
                         target="_blank"
                         rel="noreferrer"
                       >
