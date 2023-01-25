@@ -1,8 +1,17 @@
+import oakLogo from "../srcimags/oak-Logo-png-quadrado.png"
+import { Facebook } from "@heroicons/react";
 
 export function Footer() {
   return (
-    <footer className="h-24 bg-white">
-      
+    <footer className="h-auto bg-white">
+      <div className="flex flex-col items-center my-10 gap-5">
+        <img src={oakLogo} alt="Oak school logo"></img>
+        <a href="https://www.facebook.com/your-page-name">
+          <Facebook className="facebook-icon" />
+        </a>
+        <p>(15) 99699-6998</p>
+        <p>©2023 Oak School. All rights reserved.</p>
+      </div>
     </footer>
   );
 }
