@@ -7,8 +7,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 const navigation = [
   { name: "Sobre", href: "#sobre" },
   { name: "Dicas", href: "#videos" },
-  { name: "Marketplace", href: "#" },
-  { name: "Company", href: "#" },
+  { name: "Contato", href: "https://wa.me/5515996996998" },
 ];
 
 export function Main () {
@@ -48,7 +47,7 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
                     <a
                       key={item.name}
                       href={item.href}
-                      className="font-semibold text-emerald-900 hover:text-emerald-400"
+                      className="font-semibold text-emerald-900 hover:text-emerald-700"
                     >
                       {item.name}
                     </a>
@@ -112,12 +111,9 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
                   </h1>
                   <div className="mt-8 flex gap-x-4 sm:justify-center">
                     <iframe
-                      className="rounded-lg w-full aspect-[16/9] sm:w-[500px] sm:h-[281.25px] lg:w-[600px] lg:h-[337.5px]"
-                      src="https://www.youtube.com/embed/F8yHYXBLPr8"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen
+                      className="rounded-lg w-full aspect-[16/9]"
+                      src="https://drive.google.com/file/d/1ASE29XyFxAqN2bqt-S-PN-ByCbX0JCX1/preview"
+                      title="Google drive player"
                     ></iframe>
                   </div>
                   <div className="mt-8 flex gap-x-4 sm:justify-center">
