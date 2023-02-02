@@ -119,7 +119,7 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
                   <div className="mt-8 flex gap-x-4 sm:justify-center">
                     <a
                       href="https://wa.me/5515996996998"
-                      className="inline-block rounded-lg px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm bg-orange-500 hover:bg-orange-400 active:bg-orange-600"
+                      className="inline-block rounded-lg px-5 py-4 text-base font-semibold leading-7 text-white shadow-sm bg-orange-500 hover:bg-orange-400 active:bg-orange-600 xl:text-lg"
                       target="_blank"
                       rel="noreferrer"
                     >
