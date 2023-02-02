@@ -7,7 +7,7 @@ export function Videos() {
         Amazing Tips
       </h2>
       <p className="text-white text-center">
-        Dicas Incríveis em nosso canal no YouTube
+        Dicas incríveis em nosso canal no YouTube
       </p>
       <div className="flex flex-wrap justify-center items-center gap-4">
         <iframe

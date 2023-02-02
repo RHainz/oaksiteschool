@@ -7,8 +7,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 const navigation = [
   { name: "Sobre", href: "#sobre" },
   { name: "Dicas", href: "#videos" },
-  { name: "Marketplace", href: "#" },
-  { name: "Company", href: "#" },
+  { name: "Contato", href: "https://wa.me/5515996996998" },
 ];
 
 export function Main () {
@@ -22,7 +21,7 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
             className="absolute h-screen bg-no-repeat bg-cover bg-center bg-fixed opacity-40 inset-x-0 -z-10"
             style={{ backgroundImage: `url(${bgImg})` }}
           ></div>
-          <div className="px-6 pt-6 lg:px-8">
+          <div className="px-6 py-6 lg:px-8 lg:bg-opacity-90 lg:bg-white">
             <div>
               <nav
                 className="flex h-9 items-center justify-between"
@@ -48,7 +47,7 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
                     <a
                       key={item.name}
                       href={item.href}
-                      className="font-semibold text-emerald-900 hover:text-emerald-400"
+                      className="font-semibold text-emerald-900 hover:text-emerald-700"
                     >
                       {item.name}
                     </a>
@@ -103,34 +102,29 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
             </div>
           </div>
           <main>
-            <div className="h-screen relative px-6 lg:px-8">
-              <div className="h-screen mx-auto max-w-3xl pt-20 pb-10 sm:pt-20 sm:pb-20">
+            <div className="px-6 lg:px-8 flex items-center justify-center">
+              <div className="mx-auto max-w-3xl pt-20 pb-20 md:pt-14 md:pb-14 flex items-center justify-center">
                 <div>
-                  <div>
-                    <h1 className="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl">
-                      Bem-vindo à{" "}
-                      <span className="text-emerald-900">Oak School</span>
-                    </h1>
-                    <div className="mt-8 flex gap-x-4 sm:justify-center">
-                      <iframe
-                        className="rounded-lg w-full aspect-[16/9] sm:w-[500px] sm:h-[281.25px] lg:w-[600px] lg:h-[337.5px]"
-                        src="https://www.youtube.com/embed/F8yHYXBLPr8"
-                        title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen
-                      ></iframe>
-                    </div>
-                    <div className="mt-8 flex gap-x-4 sm:justify-center">
-                      <a
-                        href="https://wa.me/5515996996998"
-                        className="inline-block rounded-lg px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm bg-orange-500 hover:bg-orange-400 active:bg-orange-600"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        Quero aprender inglês
-                      </a>
-                    </div>
+                  <h1 className="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl">
+                    Bem-vindo à{" "}
+                    <span className="text-emerald-900">Oak School</span>
+                  </h1>
+                  <div className="mt-8 flex gap-x-4 sm:justify-center">
+                    <iframe
+                      className="rounded-lg w-full aspect-[16/9]"
+                      src="https://drive.google.com/file/d/1ASE29XyFxAqN2bqt-S-PN-ByCbX0JCX1/preview"
+                      title="Google drive player"
+                    ></iframe>
+                  </div>
+                  <div className="mt-8 flex gap-x-4 sm:justify-center">
+                    <a
+                      href="https://wa.me/5515996996998"
+                      className="inline-block rounded-lg px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm bg-orange-500 hover:bg-orange-400 active:bg-orange-600"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Quero aprender inglês
+                    </a>
                   </div>
                 </div>
               </div>

@@ -66,8 +66,8 @@ export function Sobre() {
                     />
                   </svg>
                   <p className="text-center lg:text-left py-10 lg:py-0">
-                    E para você saber se é tudo isso mesmo é só agendar uma aula
-                    teste grátis e ver por conta própria.
+                    E para você saber se é tudo isso mesmo, agende uma aula
+                    teste grátis e veja por conta própria.
                   </p>
                 </div>
               </div>
