@@ -62,7 +62,9 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
               >
                 <Dialog.Panel
                   focus="true"
-                  className="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden"
+                  className={`fixed inset-0 z-10 bg-white px-6 py-6 lg:hidden transform ${
+                    mobileMenuOpen ? "translate-x-0" : "-translate-x-full"
+                  } transition duration-500 ease-in-out`}
                 >
                   <div className="flex h-9 items-center justify-between">
                     <div className="flex">
