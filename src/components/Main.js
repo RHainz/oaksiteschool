@@ -62,7 +62,9 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
               >
                 <Dialog.Panel
                   focus="true"
-                  className="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden"
+                  className={`fixed inset-0 z-10 bg-white px-6 py-6 lg:hidden transform ${
+                    mobileMenuOpen ? "translate-x-0" : "-translate-x-full"
+                  } transition duration-500 ease-in-out`}
                 >
                   <div className="flex h-9 items-center justify-between">
                     <div className="flex">
@@ -119,7 +121,7 @@ const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
                   <div className="mt-8 flex gap-x-4 sm:justify-center">
                     <a
                       href="https://wa.me/5515996996998"
-                      className="inline-block rounded-lg px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm bg-orange-500 hover:bg-orange-400 active:bg-orange-600"
+                      className="inline-block rounded-lg px-5 py-4 text-base font-semibold leading-7 text-white shadow-sm bg-orange-500 hover:bg-orange-400 active:bg-orange-600 xl:text-lg"
                       target="_blank"
                       rel="noreferrer"
                     >
